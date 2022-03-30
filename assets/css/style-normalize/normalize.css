@@ -1,0 +1,43 @@
+html {
+    line-height: 1.2;
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+}
+main {
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+
+h1, h2, h3, p {
+    margin: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+strong {
+    font-weight: bolder;
+}
+
+button,
+input,
+textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+}
+fieldset {
+    border: transparent;
+}

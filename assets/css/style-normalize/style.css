@@ -1,0 +1,15 @@
+:root {
+    --cor-branco: #fff;
+    --cor-azul-100: #2A7AE4;
+    --cor-azul-80: #5595E9;
+    --cor-azul-10: #EAF2FD;
+    --cor-preto-100: #464646;
+    --cor-preto-50: #A2A2A2;
+    --cor-preto-5: #F5F5F5;
+    --cor-cinza: #E5E5E5;
+
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
