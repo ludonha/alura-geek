@@ -1,4 +1,3 @@
-
 @media screen and (min-width: 768px) {
     .cabecalho__conteiner{
         padding: 16px 32px;
@@ -31,11 +30,12 @@
     }
     
     .busca__icone{
-        background: url(../img/cabecalho/Icone.svg) center / cover no-repeat;
+        background: url(../../img/cabecalho/Icone.svg) center / cover no-repeat;
 
         height: 24px;
         width: 24px;
     }
+
     .cabecalho__busca--mobile{
         display: none;
         order: 0;
@@ -48,9 +48,11 @@
     }
     .logo__imagem{
         width: 176px;
+        
     }
     
     .cabecalho__login{
         width: 20%;
+        font-size: 1rem;
     }
 }
