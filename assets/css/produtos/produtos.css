@@ -1,0 +1,20 @@
+.produtos{
+    background: var(--cor-branco);
+    padding: 16px;
+}
+
+.produtos__barra{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.produtos__titulo{
+    color: var(--cor-preto-100);
+    font-size: 1.38rem;
+}
+.produtos__link{
+    color: var(--cor-azul-100);
+    font-size: .88rem;
+    font-weight: 700;
+    line-height: 16.44px;
+}
