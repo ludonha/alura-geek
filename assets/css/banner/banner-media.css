@@ -7,7 +7,7 @@
         
         padding: 32px;
 
-        height: 65vh;
+        height: 60vh;
 
         border: 1px solid #000000;
         box-sizing: border-box;
@@ -26,6 +26,11 @@
     }
 
 }
+@media screen and (min-width: 1024px) {
+    .banner{
+        height: 55vh;
+    }
+}
 @media screen and (min-width: 1440px) {
     .banner{
         background:
@@ -38,6 +43,6 @@
         height: 45vh;
     }
     .banner__caixa{
-        margin-left: calc(10% - 32px);
+        margin-left: calc(11% - 32px);
     }
 }

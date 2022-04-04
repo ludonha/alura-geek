@@ -1,0 +1,32 @@
+
+@media screen and (min-width: 768px) {
+    .produto:nth-of-type(2){
+        margin-right: 16px;
+    }
+   
+    .produto__imagem{
+        width: 164px;
+    }
+    .produto__link{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .produto:nth-of-type(1n+5){
+        display: flex;
+    }
+    .produto:nth-of-type(4){
+        margin-right: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .produtos__lista{
+        margin: 0 11%;
+    }
+    
+    .produto__imagem{
+        width: 173px;
+    }
+}
