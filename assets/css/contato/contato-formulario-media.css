@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+    .rodape__contato{
+        display: flex;
+        flex-direction: row;
+        padding: 32px;
+    }
+
+    .contato__sobre {
+        width: 40%;
+    }
+    .contato__sobre, .sobre__conteudo {
+        align-items: flex-start;
+    }
+    .conteudo__link{
+        margin-top: 24px;
+    }
+
+    .contato__formulario {
+        width: 60%;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .rodape__contato{
+        padding: 64px;
+    }
+    .contato__sobre{
+        flex-direction: row;
+        margin: 0 0 0 calc(11% - 64px);
+        width: 50%;
+    }
+    .sobre__conteudo{
+        margin-left: 112px;
+        padding: 0;
+    }
+    .conteudo__link:first-child{
+        margin: 0;
+    }
+    .contato__formulario {
+        margin: 0 calc(11% - 64px) 0 0;
+        width: 50%;
+    }
+}

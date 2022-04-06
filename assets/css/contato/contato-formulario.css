@@ -1,0 +1,56 @@
+
+.formulario__texto{
+    color: var(--cor-preto-100);
+    font-weight: 700;
+}
+
+.formulario__caixa{
+    display: flex;
+    flex-direction: column;
+    margin: 8px 0;
+}
+
+.caixa__nome, .caixa__input{
+    background: var(--cor-branco);
+}
+.caixa__nome{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    font-size: .75rem;
+    padding: 8px 12px 0;
+}
+
+.caixa__nome, .caixa__mensagem::placeholder{
+    color: var(--cor-preto-50);
+}
+
+.caixa__input{
+    border: 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    line-height: 125%;
+    padding: 0 12px 8px;
+}
+
+.caixa__mensagem{
+    border: 0;
+    border-radius: 3px;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.caixa__input, .caixa__mensagem{
+    color: var(--cor-preto-100);
+    border-bottom: 1px solid var(--cor-preto-50);
+}
+.caixa__input:focus, .caixa__mensagem:focus {
+    outline: none;
+}
+
+.formulario__botao{
+    color: var(--cor-branco);
+    background: var(--cor-azul-100);
+    border: 0;
+    padding: 12px 16px;
+
+}

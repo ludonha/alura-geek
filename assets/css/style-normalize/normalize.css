@@ -14,7 +14,8 @@ main {
 h1, h2, h3, p {
     margin: 0;
 }
-ul, li {
+ul, li,
+fieldset{
     margin: 0;
     padding: 0;
 }

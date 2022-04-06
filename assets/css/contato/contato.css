@@ -1,0 +1,23 @@
+.rodape__contato{
+    background: var(--cor-azul-10);
+    padding: 16px;
+}
+.contato__sobre{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.logo__imagem--contato{
+    width: 176px;
+}
+.sobre__conteudo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0 32px 0;
+}
+.conteudo__link{
+    color: var(--cor-preto-100);
+    font-weight: 500;
+    margin-top: 16px;
+}

@@ -1,0 +1,10 @@
+.rodape{
+    background: var(--cor-branco);
+}
+.rodape__desenvolvedor{
+    text-align: center;
+    padding: 32px;
+}
+.rodape__texto{
+    color: var(--cor-preto-100);
+}
